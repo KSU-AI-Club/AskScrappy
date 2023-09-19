@@ -1,0 +1,26 @@
+Problematic paths:
+These paths don't work as they're supposed to. Documenting them for
+future debugging
+
+math - computers - yes - unable to read
+math - computers - no - unable to read
+
+data science falls under math flag so doesn't print properly -- need to
+add a math_work_flag
+
+math - fam - solo - respected leads to data science and analytics when
+it should be mathematics
+
+lit - work - people - noeducation -- short circuits
+
+lit - fam - people - noeducation -- short circuits
+
+hist - work - solo -- For some reason evaluates education node
+
+hist - fam - people -- evaluates wealthy or respected node
+
+art - work - solo -- evaluates education path
+
+art - fam - people -- Evaluates wealthy or respected node
+
+art - fam - solo - money -- Unable to read
