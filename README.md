@@ -30,7 +30,6 @@ AskScrappy is a specialized chatbot designed to improve the mental health of Ken
 
 * [ ] Choose a Large Language Model (LLM) architecture, such as Llama 3, Phi3, Claude, GPT, Snowflake Arctic, etc.  
 * [ ] Fine-tune the LLM on the preprocessed data to make it particularly good at answering questions undergraduate students at KSU may have.
-* [ ] Train the model using a suitable optimization algorithm and hyperparameters.
 
 ### Step 4: Chatbot Development
 
